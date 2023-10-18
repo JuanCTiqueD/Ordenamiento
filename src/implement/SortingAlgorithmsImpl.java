@@ -53,4 +53,9 @@ public class SortingAlgorithmsImpl implements SortingAlgorithmsService {
         // Llama al método de ordenación paralelo
         return ParallelBucketSort.parallelBucketSort(arr, max);
     }
+
+    public int[] defaultArr(int[] arr){
+        Arrays.sort(arr);
+        return arr;
+    }
 }

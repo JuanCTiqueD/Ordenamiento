@@ -62,7 +62,10 @@ public class Main {
                     System.out.println("Entro al Bucket");
                     sortedArray = miOrdenador.bucketSort(sortedArray, getMaxValue(sortedArray));
                 }
-                default -> System.out.println("Algoritmo no válido");
+                default -> {
+                    System.out.println("Se ejecuta el metodo de ordenación del Sistema");
+                    sortedArray = miOrdenador.defaultArr(sortedArray);
+                }
             }
             fin = System.nanoTime();
 

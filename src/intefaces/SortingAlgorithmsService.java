@@ -8,4 +8,6 @@ public interface SortingAlgorithmsService {
     public int[] countingSort(int[] arr);
 
     public int[] bucketSort(int[] arr, int max);
+
+    public int[] defaultArr(int[] arr);
 }
